@@ -1,0 +1,13 @@
+if &compatible
+  set nocompatible
+end
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+Bundle "scrooloose/nerdtree"
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+" Define bundles via Github repos
