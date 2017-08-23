@@ -122,6 +122,8 @@ set laststatus=2
 let g:Powerline_symbols = 'fancy'
 set fillchars+=stl:\ ,stlnc:\
 
+let g:EclimCompletionMethod = 'omnifunc'
+
 " 添加一个~/.vimrc.bundles文件来保存所有插件的配置
 if filereadable(expand("~/.gvimrc.bundles"))
 source ~/.gvimrc.bundles

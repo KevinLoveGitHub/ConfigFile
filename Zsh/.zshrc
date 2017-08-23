@@ -93,6 +93,12 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
 # Macvim 替代系统 vim
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 
+# cnpm 替代 npm
+alias npm='cnpm'
+
+# mtr 配置
+alias mtr='sudo /usr/local/sbin/mtr'
+
 # docker-machine 配置
 alias dm='docker-machine'
 # 切换到本机 docker 主机
@@ -130,3 +136,7 @@ export MACHINE_DOCKER_INSTALL_URL=http://acs-public-mirror.oss-cn-hangzhou.aliyu
 
 # docker
 export DOCKER_MIRROR=https://hslvks5w.mirror.aliyuncs.com
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
