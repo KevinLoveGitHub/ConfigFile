@@ -10,5 +10,4 @@ Bundle 'gmarik/vundle'
 Bundle "scrooloose/nerdtree"
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
-Bundle 'Valloric/YouCompleteMe'
 " Define bundles via Github repos

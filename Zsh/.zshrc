@@ -140,3 +140,12 @@ export DOCKER_MIRROR=https://hslvks5w.mirror.aliyuncs.com
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
+
+# jd ip
+ip_jd="116.196.94.176"
+
+PATH="/Users/Kevin/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/Users/Kevin/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/Users/Kevin/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/Users/Kevin/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/Kevin/perl5"; export PERL_MM_OPT;
